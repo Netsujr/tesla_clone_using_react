@@ -8,14 +8,17 @@ const Section = () => {
         <h1>Model S</h1>
         <p>Order Online For Touchless Delivery</p>
       </ItemText>
-      <ButtonGroup>
-        <LeftButton>
-          Custom Order
-        </LeftButton>
-        <RightButton>
-          Existing Inventory
-        </RightButton>
-      </ButtonGroup>
+      <Buttons>
+        <ButtonGroup>
+          <LeftButton>
+            Custom Order
+          </LeftButton>
+          <RightButton>
+            Existing Inventory
+          </RightButton>
+        </ButtonGroup>
+        <DownArrow src="/images/down-arrow.svg" />
+      </Buttons>
     </Wrap>
   );
 };
@@ -62,4 +65,13 @@ const LeftButton = styled.div`
   `
 const RightButton = styled(LeftButton)`
 
+  `
+
+const DownArrow = styled.img`
+  margin-top: 20px;
+  height: 40px;
+
+  `
+
+  const Buttons = styled.div`
   `
