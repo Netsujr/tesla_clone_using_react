@@ -1,12 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Section = () => {
+const Section = (title) => {
   return (
     <Wrap>
       <ItemText>
-        <h1>Model S</h1>
-        <p>Order Online For Touchless Delivery</p>
+        <h1>{ title }</h1>
+        <p>{ props.description }</p>
       </ItemText>
       <Buttons>
         <ButtonGroup>

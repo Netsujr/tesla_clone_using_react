@@ -5,6 +5,14 @@ import Section from './Section';
 const Home = () => {
   return (
     <Container>
+      <Section
+          title="Model S"
+          descrition="Order online for Touchless Delivery"
+          backgroundImg="model-s.jpg"
+          leftBtnText="Custom Order"
+          rightBtnText="Existing inventory"
+      />
+      <Section />
       <Section />
     </Container>
   );
