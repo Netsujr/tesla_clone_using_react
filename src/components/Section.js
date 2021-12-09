@@ -4,17 +4,25 @@ import styled from 'styled-components';
 const Section = () => {
   return (
     <Wrap>
-    <ItemText>
-    <h1>Model S</h1>
-    <p>Order Online For Touchless Delivery</p>
-    </ItemText>
+      <ItemText>
+        <h1>Model S</h1>
+        <p>Order Online For Touchless Delivery</p>
+      </ItemText>
+      <ButtonGroup>
+        <LeftButton>
+          Custom Order
+        </LeftButton>
+        <RightButton>
+          Existing Inventory
+        </RightButton>
+      </ButtonGroup>
     </Wrap>
-    );
-  };
+  );
+};
 
-  export default Section;
+export default Section;
 
-  const Wrap = styled.div`
+const Wrap = styled.div`
   width: 100vw;
   height: 100vh;
   background-size: cover;
@@ -23,8 +31,18 @@ const Section = () => {
   background-image: url('/images/model-s.jpg')
   `
 
-  const ItemText = styled.div`
+const ItemText = styled.div`
   padding-top: 15vh;
   text-align: center;
+
+  `
+
+const ButtonGroup = styled.div`
+
+  `
+const LeftButton = styled.div`
+
+  `
+const RightButton = styled(LeftButton)`
 
   `

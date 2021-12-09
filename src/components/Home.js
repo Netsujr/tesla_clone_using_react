@@ -7,11 +7,11 @@ const Home = () => {
     <Container>
       <Section />
     </Container>
-    );
-  };
+  );
+};
 
-  export default Home;
+export default Home;
 
-  const Container = styled.div`
+const Container = styled.div`
   height: 100vh;
   `
