@@ -1,16 +1,11 @@
 import React from 'react';
-import styled from "styled-components"
 
 const Header = () => {
   return (
-    <Container>
-    Header
-    </Container>
-    );
-  };
+    <div>
+      Header
+    </div>
+  );
+};
 
-  export default Header;
-
-  const Container = styled.div`
-  height: 100vh;
-  `
+export default Header;
