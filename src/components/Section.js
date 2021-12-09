@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const Section = ({ title, description, leftBtnText, rightBtnText, backgroundImg }) => {
   return (
-    <Wrap bgImage={backgroundImg}>
+    <Wrap bgImage={ backgroundImg }>
       <ItemText>
         <h1>{ title }</h1>
         <p>{ description }</p>
@@ -16,7 +16,7 @@ const Section = ({ title, description, leftBtnText, rightBtnText, backgroundImg 
           { rightBtnText &&
           < RightButton >
               { rightBtnText }
-          </RightButton>}
+          </RightButton> }
         </ButtonGroup>
         <DownArrow src="/images/down-arrow.svg" />
       </Buttons>
