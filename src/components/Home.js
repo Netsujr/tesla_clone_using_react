@@ -12,46 +12,45 @@ const Home = () => {
         leftBtnText="View Projects"
       />
       <Section
+        title="Disney Clone"
+        description="A clone of Disney website using React"
+        backgroundImg="solar-roof.jpg"
+        leftBtnText="Visit Site"
+        rightBtnText="Visit GitHub"
+      />
+      <Section
         title="Gym-Ai"
-        description="An App using the GTP-3 API that helps users  "
+        description="An App using the GTP-3 API that helps gym begginers with exercises using personalised routines"
         backgroundImg="model-y.jpg"
         leftBtnText="Visit Site"
         rightBtnText="Visit GitHub"
       />
       <Section
-        title="Model 3"
-        description="Order online for Touchless Delivery"
+        title="Artistible"
+        description="An Airbnb clone app where you can hire artists near you to create unique commissioned projects."
         backgroundImg="model-3.jpg"
         leftBtnText="Visit Site"
         rightBtnText="Visit GitHub"
       />
       <Section
-        title="Model X"
-        description="Order online for Touchless Delivery"
+        title="Rails Watch List"
+        description="A simple rails app where you can create and save your movie list (API call + Cloudinary)"
         backgroundImg="model-x.jpg"
         leftBtnText="Visit Site"
         rightBtnText="Visit GitHub"
       />
       <Section
-        title="Lowest Cost Solar Panels in America"
-        description="Money-back guarantee"
+        title="TinyMe Studios"
+        description="A landing page for a photographer client, mainly using a lot of HTML/CSS with some javascript"
         backgroundImg="solar-panel.jpg"
         leftBtnText="Order now"
         rightBtnText="Learn More"
       />
       <Section
-        title="Solar for New Roofs"
-        description="Solar Roof Costs Less than a New Roof"
-        backgroundImg="solar-roof.jpg"
-        leftBtnText="Order now"
-        rightBtnText="Learn More"
-      />
-      <Section
-        title="Accessories"
+        title="Contact"
         description=""
         backgroundImg="accessories.jpg"
-        leftBtnText="Shop Now"
-        rightBtnText=""
+        leftBtnText="GitHub"
       />
     </Container>
   );
