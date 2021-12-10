@@ -6,32 +6,31 @@ const Home = () => {
   return (
     <Container>
       <Section
-        title="Model S"
-        description="Order online for Touchless Delivery"
+        title="Renato Delboni"
+        description="Front-End Developer"
         backgroundImg="model-s.jpg"
-        leftBtnText="Custom Order"
-        rightBtnText="Existing inventory"
+        leftBtnText="View Projects"
       />
       <Section
-        title="Model Y"
-        description="Order online for Touchless Delivery"
+        title="Gym-Ai"
+        description="An App using the GTP-3 API that helps users  "
         backgroundImg="model-y.jpg"
-        leftBtnText="Custom Order"
-        rightBtnText="Existing inventory"
+        leftBtnText="Visit Site"
+        rightBtnText="Visit GitHub"
       />
       <Section
         title="Model 3"
         description="Order online for Touchless Delivery"
         backgroundImg="model-3.jpg"
-        leftBtnText="Custom Order"
-        rightBtnText="Existing inventory"
+        leftBtnText="Visit Site"
+        rightBtnText="Visit GitHub"
       />
       <Section
         title="Model X"
         description="Order online for Touchless Delivery"
         backgroundImg="model-x.jpg"
-        leftBtnText="Custom Order"
-        rightBtnText="Existing inventory"
+        leftBtnText="Visit Site"
+        rightBtnText="Visit GitHub"
       />
       <Section
         title="Lowest Cost Solar Panels in America"
