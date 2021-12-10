@@ -6,38 +6,32 @@ const Home = () => {
   return (
     <Container>
       <Section
-        title="Renato Delboni"
-        description="Front-End Developer"
+        title="Model S"
+        description="Order online for Touchless Delivery"
         backgroundImg="model-s.jpg"
-        leftBtnText="View Projects"
+        leftBtnText="Custom Order"
+        rightBtnText="Existing inventory"
       />
       <Section
-        title="Disney Clone"
-        description="A clone of Disney website using React"
-        backgroundImg="solar-roof.jpg"
-        leftBtnText="Visit Website"
-        rightBtnText="GitHub Repository"
-      />
-      <Section
-        title="Gym-Ai"
-        description="An App using the GTP-3 API that helps gym begginers with exercises using personalised routines"
+        title="Model Y"
+        description="Order online for Touchless Delivery"
         backgroundImg="model-y.jpg"
-        leftBtnText="Visit Site"
-        rightBtnText="GitHub Repository"
+        leftBtnText="Custom Order"
+        rightBtnText="Existing inventory"
       />
       <Section
         title="Artistible"
         description="An Airbnb clone app where you can hire artists near you to create unique commissioned projects."
         backgroundImg="model-3.jpg"
-        leftBtnText="Visit Site"
-        rightBtnText="GitHub Repository"
+        leftBtnText="Custom Order"
+        rightBtnText="Existing inventory"
       />
       <Section
         title="Rails Watch List"
         description="A simple rails app where you can create and save your movie list (API call + Cloudinary)"
         backgroundImg="model-x.jpg"
-        leftBtnText="Visit Site"
-        rightBtnText="GitHub Repository"
+        leftBtnText="Custom Order"
+        rightBtnText="Existing inventory"
       />
       <Section
         title="TinyMe Studios"

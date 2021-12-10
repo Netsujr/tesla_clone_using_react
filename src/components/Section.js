@@ -7,19 +7,19 @@ const Section = ({ title, description, leftBtnText, rightBtnText, backgroundImg 
     <Wrap bgImage={backgroundImg}>
       <Fade bottom>
         <ItemText>
-          <h1>{ title }</h1>
-          <p>{ description }</p>
+          <h1>{title}</h1>
+          <p>{description}</p>
         </ItemText>
       </Fade>
       <Buttons>
         <Fade bottom>
           <ButtonGroup>
             <LeftButton>
-              { leftBtnText }
+              {leftBtnText}
             </LeftButton>
-            { rightBtnText &&
+            {rightBtnText &&
               < RightButton >
-                { rightBtnText }
+                {rightBtnText}
               </RightButton>}
           </ButtonGroup>
         </Fade>

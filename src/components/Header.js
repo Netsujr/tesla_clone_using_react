@@ -2,22 +2,22 @@ import React, { useState } from 'react';
 import styled from "styled-components"
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
-import { selectProjects } from '../features/projects/projectSlice';
+import { selectCars } from '../features/cars/carSlice';
 import { useSelector } from 'react-redux';
 
 
 const Header = () => {
   const [burgerStatus, setBurgerStatus] = useState(false);
-  const projects = useSelector(selectProjects)
+  const cars = useSelector(selectCars)
 
   return (
     <Container>
-      {/* <a>
+      <a>
         <img src="/images/logo.svg" alt="" />
-      </a> */}
+      </a>
       <Menu>
-        {projects && projects.map((project, index)=>(
-          <a key={index} href="#">{project}</a>
+        {cars && cars.map((car, index) => (
+          <a key={index} href="#">{car}</a>
         ))}
       </Menu>
       <RightMenu>
@@ -28,8 +28,8 @@ const Header = () => {
         <CloseWrapper>
           <CustomClose onClick={() => setBurgerStatus(false)} />
         </CloseWrapper>
-        {projects && projects.map((project, index) => (
-          <li key={index}><a href="#">{project}</a></li>
+        {cars && cars.map((car, index) => (
+          <li key={index}><a href="#">{car}</a></li>
         ))}
         {/* ADD Contact LINKS HERE
         <li><a href="">Used Inventory</a></li>
