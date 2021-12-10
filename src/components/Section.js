@@ -37,7 +37,7 @@ const Wrap = styled.div`
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: ${props => `url("/images/${props.bgImage}");`}
+    background-image: ${props => `url("/images/${props.bgImage}")`};
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -85,5 +85,6 @@ const DownArrow = styled.img`
     `
 
 const Buttons = styled.div`
-
     `
+
+// image: ${ props => `url("/images/${props.profileImg}");` }

@@ -12,4 +12,4 @@ const projectSlice = createSlice({
 
 export const selectProjects = state => state.project.projects
 
-export default projectSlice.reducers
+export default projectSlice.reducer

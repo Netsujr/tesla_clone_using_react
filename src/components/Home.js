@@ -15,7 +15,7 @@ const Home = () => {
         title="Disney Clone"
         description="A clone of Disney website using React"
         backgroundImg="solar-roof.jpg"
-        leftBtnText="Visit Site"
+        leftBtnText="Visit Website"
         rightBtnText="GitHub Repository"
       />
       <Section
