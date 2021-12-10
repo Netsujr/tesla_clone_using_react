@@ -13,17 +13,16 @@ const Header = () => {
 
   return (
     <Container>
-      <a>
+      {/* <a>
         <img src="/images/logo.svg" alt="" />
-      </a>
+      </a> */}
       <Menu>
         {cars && cars.map((car, index)=>(
           <a key={index} href="#">{car}</a>
         ))}
       </Menu>
       <RightMenu>
-        <a href="#">Shop</a>
-        <a href="#">Tesla Account</a>
+        {/* ADD SOMETHING HERE <a href="#"></a> */}
         <CustomMenu onClick={() => setBurgerStatus(true)} />
       </RightMenu>
       <BurgerNav show={burgerStatus}>
@@ -33,11 +32,11 @@ const Header = () => {
         {cars && cars.map((car, index) => (
           <li key={index}><a href="#">{car}</a></li>
         ))}
-        <li><a href="">Existing Inventory</a></li>
+        {/* ADD Contact LINKS HERE
         <li><a href="">Used Inventory</a></li>
         <li><a href="">Trade-in</a></li>
         <li><a href="">Cybertruck</a></li>
-        <li><a href="">Roadster</a></li>
+        <li><a href="">Roadster</a></li> */}
       </BurgerNav>
     </Container>
   );
@@ -90,7 +89,6 @@ const RightMenu = styled.div`
 
 const CustomMenu = styled(MenuIcon)`
     cursor: pointer;
-
     `
 
 const BurgerNav = styled.div`
@@ -120,10 +118,8 @@ const BurgerNav = styled.div`
 
 const CustomClose = styled(CloseIcon)`
     cursor: pointer;
-
     `
 const CloseWrapper = styled.div`
     display: flex;
     justify-content: flex-end;
-
     `

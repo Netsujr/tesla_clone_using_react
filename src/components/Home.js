@@ -16,28 +16,28 @@ const Home = () => {
         description="A clone of Disney website using React"
         backgroundImg="solar-roof.jpg"
         leftBtnText="Visit Site"
-        rightBtnText="Visit GitHub"
+        rightBtnText="GitHub Repository"
       />
       <Section
         title="Gym-Ai"
         description="An App using the GTP-3 API that helps gym begginers with exercises using personalised routines"
         backgroundImg="model-y.jpg"
         leftBtnText="Visit Site"
-        rightBtnText="Visit GitHub"
+        rightBtnText="GitHub Repository"
       />
       <Section
         title="Artistible"
         description="An Airbnb clone app where you can hire artists near you to create unique commissioned projects."
         backgroundImg="model-3.jpg"
         leftBtnText="Visit Site"
-        rightBtnText="Visit GitHub"
+        rightBtnText="GitHub Repository"
       />
       <Section
         title="Rails Watch List"
         description="A simple rails app where you can create and save your movie list (API call + Cloudinary)"
         backgroundImg="model-x.jpg"
         leftBtnText="Visit Site"
-        rightBtnText="Visit GitHub"
+        rightBtnText="GitHub Repository"
       />
       <Section
         title="TinyMe Studios"
